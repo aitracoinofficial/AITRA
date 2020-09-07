@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=AITRA Coin Daemon SNAP
+Comment=main
+GenericName=AITRA_Coin Digital Currency Daemon Client main network
+Exec=aitra-core.daemon %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/aitra.png
+MimeType=x-scheme-handler/aitra;
+Categories=X-Office;X-Finance;
+Keywords=internet;aitra;zaitra;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;
+Version=1.0

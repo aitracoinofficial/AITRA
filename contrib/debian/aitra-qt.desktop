@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=AITRA Coin
+Comment=AITRA_Coin P2P Cryptocurrency
+Comment[fr]=AITRA_Coin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AITRA_Coin, eşten eşe kriptografik sanal para birimi
+Exec=aitra-qt %u
+Terminal=false
+Type=Application
+Icon=aitra128
+MimeType=x-scheme-handler/aitra;
+Categories=Office;Finance;
+StartupWMClass=Aitra-qt

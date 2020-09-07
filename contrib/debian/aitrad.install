@@ -1,0 +1,3 @@
+usr/local/bin/aitrad usr/bin
+usr/local/bin/aitra-cli usr/bin
+debian/examples/aitra.conf etc/aitra

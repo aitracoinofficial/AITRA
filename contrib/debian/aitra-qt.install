@@ -1,0 +1,6 @@
+usr/local/bin/aitra-qt usr/bin
+share/pixmaps/aitra32.xpm usr/share/pixmaps
+share/pixmaps/aitra16.xpm usr/share/pixmaps
+share/pixmaps/aitra128.png usr/share/pixmaps
+debian/aitra-qt.desktop usr/share/applications
+debian/aitra-qt.protocol usr/share/kde4/services/

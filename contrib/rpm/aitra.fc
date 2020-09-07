@@ -1,0 +1,8 @@
+/usr/bin/aitra-cli		--	gen_context(system_u:object_r:aitra_exec_t,s0)
+/usr/sbin/aitrad		--	gen_context(system_u:object_r:aitra_exec_t,s0)
+/usr/lib(64)?/aitra/aitrad		--	gen_context(system_u:object_r:aitra_exec_t,s0)
+
+/etc/aitra(/.*)?		gen_context(system_u:object_r:aitra_conf_t,s0)
+/var/lib/aitra(/.*)?		gen_context(system_u:object_r:aitra_var_lib_t,s0)
+
+(/var)?/run/aitrad(/.*)?   gen_context(system_u:object_r:aitra_var_run_t,s0)

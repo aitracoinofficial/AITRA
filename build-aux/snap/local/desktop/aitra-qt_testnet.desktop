@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=AITRA Coin
+Comment=AITRA Coin QT test network
+GenericName=AITRA_Coin Digital Currency QT client testnet network
+Exec=aitra-core.qt-testnet %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/aitra_testnet.png
+MimeType=x-scheme-handler/aitra;
+Categories=X-Office;X-Finance;
+Keywords=internet;aitra;zaitra;taitra;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;
+Version=1.0
